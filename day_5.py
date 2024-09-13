@@ -3,6 +3,7 @@ def leader(arr,n):
     for i in range(n-1):
         if arr[i] > arr[i+1]:
             l.append(arr[i])
+    l.append(arr[n - 1])
             
     print(l)   
 
